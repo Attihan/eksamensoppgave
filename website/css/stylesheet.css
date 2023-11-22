@@ -1,8 +1,14 @@
 
 /* for all pages, sets the background as a picture */
 body {
-    margin: 0;
-    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     width: 100%;
     height: auto;
 }
@@ -82,7 +88,10 @@ a{
 /* Makes a grid inside the article*/
 .grid {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
     font-size: 1vw;
     line-height: 1.5;
     border-radius: 25px;
@@ -104,7 +113,10 @@ to form a dropdown button, however we also implemented some things for the sake 
     font-size: 2vw;
     background-color: rgba(234,234,234);
     color: black;
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     border: 0rem;
     cursor: pointer;
     border-radius: 25px;
@@ -130,7 +142,10 @@ to form a dropdown button, however we also implemented some things for the sake 
 
 /* This edits the text content inside the dropdown, changes color and removes underline */
 .dropdown-content a {
-    padding: 12px 16px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
     text-decoration: none;
     display: block;
     color: black;
@@ -262,13 +277,17 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     /*Makes everything wrapped in grid smaller for smaller devices */
 
     .grid {
-        padding: 20px;
         font-size: 2vw;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
 }
 
 
 /* ----------------------Page 5 : Exercise------------------------ */
+
 
 /* Styling for google maps frame */
 .googlemaps {
@@ -276,6 +295,7 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     height: 400px;
     border: 0;
 }
+/* The code written under is taken from https://alvarotrigo.com/blog/html-css-tabs/*/
 
 /* Resetting box sizing for all elements */
 .tabs {
