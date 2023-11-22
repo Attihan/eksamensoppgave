@@ -378,10 +378,3 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     }
 }
 
-.h1exercice{
-    font-size: 2vw;
-    background-image: url(/website/img/backgroundimage-exercise.jpg);
-
-    border-radius: 25px;
-    text-align: center;
-}
