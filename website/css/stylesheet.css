@@ -281,7 +281,7 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
   .tabs {
     position: relative;
     margin: 3rem 0;
-    background: #1abc9c;
+    background: #363636;
     height: 14.75rem;
   }
 
@@ -309,8 +309,8 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     line-height: 2.75em;
     height: 3em;
     padding: 0 1.618em;
-    background: #1abc9c;
-    border-right: 0.125rem solid #16a085;
+    background: #2b2b2b;
+    border-right: 0.125rem solid #181818;
     color: #fff;
     cursor: pointer;
     top: 0;
