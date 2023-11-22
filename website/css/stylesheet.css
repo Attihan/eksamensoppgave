@@ -39,12 +39,11 @@ unit which acts in accordance with current browser width*/
     place-items: center;
 }
 
-/* Every image inside headergrid has these styles, styling the Oslomet logo */
-.headergrid img {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    width: auto;
+/*Class to style the logo which are on all pages */
+.logo{
+    font-size: 3vw;
+    color: rgb(255, 211, 53);
+
 }
 
 /* The biggest header titles(heading level 1) gets changed with this selector 
