@@ -260,4 +260,36 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
         font-size: 2vw;
     }
 }
+
+
+/* ----------------------Page 5 : Exercise------------------------ */
+
+
+
+.youtube-video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+    margin-bottom: 20px;
+}
+
+.youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; 
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+    .youtube-video {
+        padding-top: 75%; 
+    }
+}
+
+
     
