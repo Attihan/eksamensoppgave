@@ -265,45 +265,50 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
 
 /* ----------------------Page 5 : Exercise------------------------ */
 
-
+/* Styling for google maps frame */
 .googlemaps {
     width: 100%;
-    height: 400px; 
-    border: 0; 
-
+    height: 400px;
+    border: 0;
 }
 
-
-* {
+/* Resetting box sizing for all elements */
+.tabs {
     box-sizing: border-box;
-  }
+}
 
-  .tabs {
+/* Styling for tabs container */
+.tabs {
     position: relative;
     margin: 3rem 0;
     background: #363636;
     height: 14.75rem;
-  }
+}
 
-  .tabs::before,
-  .tabs::after {
+/* Clearing floats in the tabs container */
+.tabs::before,
+.tabs::after {
     content: "";
     display: table;
-  }
+}
 
-  .tabs::after {
+/* Clearing floats in the tabs container */
+.tabs::after {
     clear: both;
-  }
+}
 
-  .tab {
+/* Individual tab styling */
+.tab {
     float: left;
-  }
+}
 
-  .tab-switch {
+/* Hidden checkbox input for tab switching */
+.tab-switch {
     display: none;
-  }
+}
 
-  .tab-label {
+/* Styling for tab labels */
+.tab-label {
     position: relative;
     display: block;
     line-height: 2.75em;
@@ -315,14 +320,16 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     cursor: pointer;
     top: 0;
     transition: all 0.25s;
-  }
+}
 
-  .tab-label:hover {
+/* Hover effect for tab labels */
+.tab-label:hover {
     top: -0.25rem;
     transition: top 0.25s;
-  }
+}
 
-  .tab-content {
+/* Styling for tab content */
+.tab-content {
     height: 12rem;
     position: absolute;
     z-index: 1;
@@ -334,9 +341,10 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     border-bottom: 0.25rem solid #bdc3c7;
     opacity: 0;
     transition: all 0.35s;
-  }
+}
 
-  .tab-switch:checked + .tab-label {
+/* Switching styles when a tab is checked */
+.tab-switch:checked + .tab-label {
     background: #fff;
     color: #2c3e50;
     border-bottom: 0;
@@ -344,37 +352,37 @@ We copied some code from https://www.w3schools.com/cssref/css3_pr_mediaquery.php
     transition: all 0.35s;
     z-index: 1;
     top: -0.0625rem;
-  }
+}
 
-  .tab-switch:checked + label + .tab-content {
+.tab-switch:checked + label + .tab-content {
     z-index: 2;
     opacity: 1;
     transition: all 0.35s;
-  }
-  
+}
 
-  .youtube-video {
+/* Styling for YouTube video container */
+.youtube-video {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; /* Aspect ratio is  16:9 which translate to 56.25%) */
+    padding-top: 56.25%; /* Aspect ratio is 16:9 */
     margin-bottom: 20px;
 }
 
+/* Styling for YouTube video iframe */
 .youtube-video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: none; 
+    border: none;
 }
 
-
+/* Responsive adjustment for YouTube video on smaller screens */
 @media screen and (max-width: 768px) {
- 
     .youtube-video {
-        padding-top: 75%; /* Aspect ratio is  4:3 which translate to 75%), The same as last time */
+        padding-top: 75%; /* Aspect ratio is 4:3, adjusted for responsiveness */
     }
 }
 
