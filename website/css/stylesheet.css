@@ -102,6 +102,7 @@ a{
 }
 
 
+/* -----------------------Navigation : Dropdown -------------------------- */
 
 
 /*We copied the dropdown button code from https://www.w3schools.com/howto/howto_css_dropdown.asp 
@@ -163,6 +164,8 @@ to form a dropdown button, however we also implemented some things for the sake 
     max-height: 500px; 
 }
 
+/* -------------------------------------End Navigation: dropdown-----------------------------------------*/
+
 
 
 /* The dark long rectangle at the bottom of the page */
@@ -178,7 +181,7 @@ footer {
 }
 
 
-/* Accessibility */
+/* -------------------------------- Page 3 : Accessibility * ----------------------------/
 
 /* Picture of first lighthouse test */
 .lighthouseversion1 {
@@ -218,7 +221,7 @@ footer {
     
 }
 
-/* About */
+/* ---------------------------------Page 4: About -------------------------------------------*/
 
 /* Picture on the left side on page about.html */
 .climbing-picture {
