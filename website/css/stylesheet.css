@@ -93,6 +93,7 @@ a{
 }
 
 
+/* -----------------------Navigation : Dropdown -------------------------- */
 
 
 /*We copied the dropdown button code from https://www.w3schools.com/howto/howto_css_dropdown.asp 
@@ -147,6 +148,8 @@ to form a dropdown button, however we also implemented some things for the sake 
 .dropdown:hover .dropdown-content {
     max-height: 500px; 
 }
+
+/* -------------------------------------End Navigation: dropdown-----------------------------------------*/
 
 
 
