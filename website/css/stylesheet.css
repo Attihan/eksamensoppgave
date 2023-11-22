@@ -166,6 +166,28 @@ footer {
 }
 
 
+
+
+/*----------------------------------Page 1 : Main Page ---------------------------------------- */
+
+.p35-picture {
+     width: 100%;
+     height: auto; 
+}
+
+/* -------------------------------- Page 2: Topical * -------------------------------------------------- */
+
+
+
+.topical-page-picture{
+    display: block;
+    width: 100%;
+    height: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 /* -------------------------------- Page 3 : Accessibility * ----------------------------/
 
 /* Picture of first lighthouse test */
@@ -184,26 +206,6 @@ footer {
 .finaltest {
     width: 100%;
     height: auto;
-}
-
-/*Main Page*/
-
-.p35-picture {
-     width: 100%;
-     height: auto; 
-}
-
-/* Topical */
-
-/* styling for all pictures on the topical page */
-
-.topical-page-picture{
-    display: block;
-    width: 100%;
-    height: 32%;
-    margin-left: auto;
-    margin-right: auto;
-    
 }
 
 /* ---------------------------------Page 4: About -------------------------------------------*/
